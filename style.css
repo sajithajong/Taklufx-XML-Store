@@ -414,3 +414,60 @@ border-radius:30px;
 cursor:pointer;
 font-size:16px;
 }
+.reviews{
+padding:80px 8%;
+text-align:center;
+}
+
+.review-box{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.review{
+background:rgba(255,255,255,.06);
+padding:25px;
+border-radius:20px;
+backdrop-filter:blur(15px);
+transition:.3s;
+}
+
+.review:hover{
+transform:translateY(-8px);
+box-shadow:0 0 25px #8a2be2;
+}
+
+.review h4{
+margin-top:15px;
+color:#b366ff;
+}
+
+.combo{
+padding:80px 8%;
+text-align:center;
+}
+
+.combo-card{
+max-width:400px;
+margin:auto;
+padding:35px;
+border-radius:25px;
+background:linear-gradient(135deg,#5b00ff,#8a2be2);
+box-shadow:0 0 40px rgba(138,43,226,.6);
+}
+
+.combo-card h1{
+margin:20px 0;
+font-size:50px;
+}
+
+.combo-card button{
+padding:15px 35px;
+border:none;
+border-radius:40px;
+cursor:pointer;
+font-size:18px;
+font-weight:bold;
+}
