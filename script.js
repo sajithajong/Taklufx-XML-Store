@@ -1,10 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const button = document.querySelector("button");
-
-    button.addEventListener("click", () => {
-        alert("🚀 Payment system coming soon!\nTaklufx XML Store");
-    });
-});
 const popup=document.getElementById("paymentPopup");
 
 document.querySelectorAll(".buy").forEach(btn=>{
