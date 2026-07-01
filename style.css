@@ -471,3 +471,43 @@ cursor:pointer;
 font-size:18px;
 font-weight:bold;
 }
+.search-section{
+padding:70px 8% 20px;
+text-align:center;
+}
+
+.search-section input{
+width:350px;
+max-width:90%;
+padding:15px;
+border:none;
+border-radius:35px;
+font-size:16px;
+background:#1a1a2f;
+color:white;
+outline:none;
+box-shadow:0 0 20px rgba(138,43,226,.3);
+}
+
+.categories{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+padding:20px 8% 50px;
+}
+
+.categories button{
+padding:12px 22px;
+border:none;
+border-radius:30px;
+background:#8a2be2;
+color:white;
+cursor:pointer;
+transition:.3s;
+}
+
+.categories button:hover{
+transform:translateY(-4px);
+box-shadow:0 0 20px #8a2be2;
+}
