@@ -108,3 +108,31 @@ border-radius:50%;
 margin-bottom:20px;
 box-shadow:0 0 30px #8a2be2;
 }
+.preview-section{
+padding:60px 20px;
+text-align:center;
+background:#0f0f18;
+}
+
+.preview-section h2{
+font-size:32px;
+color:#b366ff;
+margin-bottom:15px;
+}
+
+.preview-section p{
+color:#ccc;
+margin-bottom:30px;
+}
+
+.preview-box img{
+width:280px;
+max-width:90%;
+border-radius:20px;
+box-shadow:0 0 30px #8a2be2;
+transition:.4s;
+}
+
+.preview-box img:hover{
+transform:scale(1.05);
+}
