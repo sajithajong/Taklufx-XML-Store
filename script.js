@@ -19,3 +19,26 @@ popup.style.display="none";
 document.getElementById("paidBtn").onclick=()=>{
 alert("Thanks! Please send your payment screenshot on WhatsApp. XML will be provided after verification.");
 }
+function searchXML(){
+
+let input=document.getElementById("search").value.toLowerCase();
+
+let cards=document.querySelectorAll(".card");
+
+cards.forEach(card=>{
+
+let title=card.innerText.toLowerCase();
+
+if(title.includes(input)){
+
+card.style.display="block";
+
+}else{
+
+card.style.display="none";
+
+}
+
+});
+
+}
