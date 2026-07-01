@@ -101,3 +101,10 @@ padding:25px;
 background:#12121a;
 margin-top:50px;
 }
+.logo{
+width:160px;
+height:160px;
+border-radius:50%;
+margin-bottom:20px;
+box-shadow:0 0 30px #8a2be2;
+}
