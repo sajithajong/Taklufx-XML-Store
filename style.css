@@ -121,6 +121,15 @@ font-size:18px;
 font-weight:600;
 cursor:pointer;
 transition:.4s;
+background:#8a2be2;
+color:#fff;
+box-shadow:0 0 25px rgba(138,43,226,.6);
+}
+
+.buy:hover,
+.preview:hover{
+transform:translateY(-6px);
+box-shadow:0 0 40px #8a2be2;
 }
 
 .buy{
