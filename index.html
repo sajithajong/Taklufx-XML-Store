@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090914">
 
 <title>Taklufx XML Store</title>
 
@@ -11,68 +12,120 @@
 
 <body>
 
-<header>
-    <div class="logo">
-        <img src="1774710957365.jpg">
-        <h2>Taklufx <span>XML STORE</span></h2>
+<header class="navbar">
+
+    <div class="logo-box">
+        <img src="1774710957365.jpg" class="logo" alt="Taklufx Logo">
+        <h2>Taklufx XML</h2>
     </div>
 
     <nav>
-        <a href="#home">Home</a>
-        <a href="#store">XML Store</a>
-        <a href="#how">How to Use</a>
-        <a href="#contact">Contact</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#store">XML Store</a></li>
+            <li><a href="#how">How to Use</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
+
 </header>
+
+
+<!-- HERO SECTION -->
 
 <section class="hero" id="home">
 
-    <div class="hero-content">
+    <div class="hero-left">
 
-        <h3>✦ PREMIUM XML STORE</h3>
+        <span class="badge">✦ PREMIUM XML STORE</span>
 
         <h1>
-            Taklufx<br>
-            <span>XML Store</span>
+            Welcome To<br>
+            <span style="color:#b366ff">Taklufx XML</span>
         </h1>
 
         <p>
-            Premium Quality XML Files For Your Editing Needs.
-            Easy to Use. Plug & Play.
+            Upgrade your Alight Motion editing experience
+            with premium XML presets, smooth animations,
+            glow effects and professional transitions.
         </p>
 
-        <h2>₹10 <small>Only</small></h2>
+        <div class="buttons">
 
-        <button onclick="openPayment()">
-            🛒 Buy Now →
-        </button>
+            <button class="buy" onclick="openPayment('Glow XML')">
+                BUY NOW — ₹10
+            </button>
+
+            <button class="preview" onclick="showPreview()">
+                PREVIEW
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="hero-right">
+
+        <img src="1774710957365.jpg" alt="Taklufx Premium XML">
 
     </div>
 
 </section>
 
-<section class="store" id="store">
 
-    <h1>FEATURED <span>XMLS</span></h1>
+<!-- STORE SECTION -->
 
-    <p>High Quality XML Files For Your Edits</p>
+<section class="products" id="store">
 
-    <div class="products">
+    <h2>OUR PREMIUM <span style="color:#b366ff">XMLS</span></h2>
+
+    <div class="cards">
 
         <div class="card">
 
-            <img src="1774710957365.jpg">
+            <h3>🔥 Glow XML</h3>
 
-            <h2>Glow XML</h2>
+            <p>✔ Premium Glow Effects</p>
+            <p>✔ Smooth Animation</p>
+            <p>✔ Camera Shake</p>
+            <p>✔ Easy to Import</p>
 
-            <p>Premium Glow Effect</p>
-            <p>Smooth Animation</p>
-            <p>Camera Shake</p>
+            <h1>₹10</h1>
 
-            <h2>₹10</h2>
+            <button class="buy" onclick="openPayment('Glow XML')">
+                BUY NOW
+            </button>
 
-            <button onclick="openPayment()">
-                🛒 Buy Now
+        </div>
+
+        <div class="card">
+
+            <h3>⚡ Shake XML</h3>
+
+            <p>✔ Professional Shake</p>
+            <p>✔ Smooth Motion</p>
+            <p>✔ Easy to Import</p>
+
+            <h1>₹10</h1>
+
+            <button class="buy" onclick="openPayment('Shake XML')">
+                BUY NOW
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h3>✨ Smooth XML</h3>
+
+            <p>✔ Smooth Transitions</p>
+            <p>✔ Premium Effects</p>
+            <p>✔ Easy to Import</p>
+
+            <h1>₹10</h1>
+
+            <button class="buy" onclick="openPayment('Smooth XML')">
+                BUY NOW
             </button>
 
         </div>
@@ -81,54 +134,135 @@
 
 </section>
 
-<section class="how" id="how">
 
-    <h1>How to Use</h1>
+<!-- HOW TO USE -->
 
-    <p>1. Select your favourite XML.</p>
-    <p>2. Click Buy Now.</p>
-    <p>3. Scan the UPI QR code.</p>
-    <p>4. Send payment screenshot on WhatsApp.</p>
-    <p>5. Receive your XML after verification.</p>
+<section class="products" id="how">
+
+    <h2>HOW TO <span style="color:#b366ff">BUY</span></h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>01. Select XML</h3>
+            <p>Choose your favourite XML preset.</p>
+        </div>
+
+        <div class="card">
+            <h3>02. Make Payment</h3>
+            <p>Scan the UPI QR code and pay ₹10.</p>
+        </div>
+
+        <div class="card">
+            <h3>03. Get XML</h3>
+            <p>Send payment proof on WhatsApp. XML will be delivered after verification.</p>
+        </div>
+
+    </div>
 
 </section>
 
-<section class="contact" id="contact">
 
-    <h1>Contact Us</h1>
+<!-- REVIEWS -->
 
-    <p>Need help? Contact Taklufx.</p>
+<section class="reviews">
+
+    <h2>WHY CHOOSE <span style="color:#b366ff">TAKLUFX?</span></h2>
+
+    <div class="review-box">
+
+        <div class="review">
+            <h3>⭐ Premium Quality</h3>
+            <p>Professional editing presets.</p>
+        </div>
+
+        <div class="review">
+            <h3>⚡ Easy to Use</h3>
+            <p>Simple XML import process.</p>
+        </div>
+
+        <div class="review">
+            <h3>💜 Affordable Price</h3>
+            <p>Premium XML starting at ₹10.</p>
+        </div>
+
+    </div>
 
 </section>
 
-<footer>
-    © 2026 Taklufx XML Store
+
+<!-- CONTACT -->
+
+<footer id="contact">
+
+    <h2>Taklufx XML Store</h2>
+
+    <p>Premium XML Presets For Alight Motion</p>
+
+    <p>© 2026 Taklufx. All Rights Reserved.</p>
+
 </footer>
 
 
 <!-- PAYMENT POPUP -->
 
-<div class="payment-popup" id="paymentPopup">
+<div class="popup" id="paymentPopup">
 
-    <div class="payment-box">
+    <div class="popup-content">
 
         <span class="close" onclick="closePayment()">×</span>
 
         <h2>Pay ₹10</h2>
 
+        <p id="selectedProduct">Selected XML</p>
+
         <p>Scan the QR and complete your payment.</p>
 
-        <img src="GooglePay_QR.png" alt="Payment QR Code">
+        <img src="GooglePay_QR.png"
+             class="popup-qr"
+             alt="UPI Payment QR">
 
         <p>After payment, send your screenshot on WhatsApp.</p>
 
-        <button onclick="sendPaymentProof()">
+        <button id="paidBtn" onclick="sendPaymentProof()">
             I've Paid
         </button>
 
     </div>
 
 </div>
+
+
+<!-- PREVIEW POPUP -->
+
+<div class="popup" id="previewPopup">
+
+    <div class="popup-content">
+
+        <span class="close" onclick="closePreview()">×</span>
+
+        <h2>XML Preview</h2>
+
+        <p>Glow XML Preview coming soon!</p>
+
+        <button class="buy" onclick="closePreview();openPayment('Glow XML')">
+            BUY NOW ₹10
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- WHATSAPP BUTTON -->
+
+<a href="https://wa.me/91YOURNUMBER"
+   class="whatsapp-btn"
+   target="_blank"
+   rel="noopener">
+   💬
+</a>
+
 
 <script src="script.js"></script>
 
